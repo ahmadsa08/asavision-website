@@ -28,7 +28,7 @@ Font Awesome: For scalable vector icons used across the website.
 Viewing the Website
 This website is hosted using GitHub Pages. You can view the live site at:
 
-[[My GitHub Pages URL here, e.g., https://github.com/ahmadsa08/asavision-website](https://github.com/ahmadsa08/asavision-website)]
+[[My GitHub Pages](https://github.com/ahmadsa08/asavision-website)]
 
 How to Run Locally
 If you wish to run this project on your local machine:
