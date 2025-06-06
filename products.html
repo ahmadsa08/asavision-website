@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products - AsaVision</title>
+  <!-- Link to Tailwind CSS CDN for modern styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom CSS for additional styling or overrides -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+  <!-- Header section with logo and navigation -->
+  <header class="bg-blue-900 text-white p-4 flex flex-col sm:flex-row items-center justify-between shadow-md">
+    <!-- Logo container -->
+    <div class="flex items-center mb-4 sm:mb-0">
+      <!-- Placeholder for logo image, adjust path as needed -->
+      <img src="images/logo.png" alt="AsaVision Logo" class="h-10 mr-3 rounded-md" />
+      <span class="text-2xl font-bold">AsaVision Enterprise</span>
+    </div>
+    <!-- Navigation links -->
+    <nav class="flex flex-wrap justify-center sm:justify-end space-x-4">
+      <a href="index.html" class="hover:text-blue-200 transition-colors duration-300 px-3 py-2 rounded-md">Home</a>
+      <a href="about.html" class="hover:text-blue-200 transition-colors duration-300 px-3 py-2 rounded-md">About</a>
+      <a href="products.html" class="hover:text-blue-200 transition-colors duration-300 px-3 py-2 rounded-md">Products</a>
+      <a href="certificates.html" class="hover:text-blue-200 transition-colors duration-300 px-3 py-2 rounded-md">Certificates</a>
+      <a href="clients.html" class="hover:text-blue-200 transition-colors duration-300 px-3 py-2 rounded-md">Clients</a>
+      <a href="contact.html" class="bg-blue-700 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-colors duration-300 shadow-lg">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-12">
+    <section class="intro bg-white p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold text-center mb-10 text-blue-800">Our Products</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Product Card 1: Smart Home IoT Automation Kit -->
+        <div class="product-card bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="images/IoT Kit.png" alt="Smart Home IoT Automation Kit" class="w-48 h-auto mb-4 rounded-md object-cover" />
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Smart Home IoT Automation Kit</h3>
+          <p class="text-gray-600 mb-4">Automate lighting, security, and energy usage for a truly smart living experience.</p>
+          <p class="text-2xl font-bold text-teal-600 mb-4">RM220</p>
+          <ul class="text-left text-sm text-gray-700 list-disc list-inside mb-6">
+            <li>Seamless control via smartphone app</li>
+            <li>Energy monitoring and optimization</li>
+            <li>Enhanced home security features</li>
+            <li>Easy installation and setup</li>
+          </ul>
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition-colors duration-300 shadow-md">Learn More</button>
+        </div>
+
+        <!-- Product Card 2: ESP32 Wi-Fi + Bluetooth MCU -->
+        <div class="product-card bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="images/ESP32 MCU Module.png" alt="ESP32 Wi-Fi + Bluetooth MCU" class="w-48 h-auto mb-4 rounded-md object-cover" />
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">ESP32 Wi-Fi + Bluetooth MCU</h3>
+          <p class="text-gray-600 mb-4">A versatile microcontroller, perfect for developers and DIY smart projects.</p>
+          <p class="text-2xl font-bold text-teal-600 mb-4">RM65</p>
+          <ul class="text-left text-sm text-gray-700 list-disc list-inside mb-6">
+            <li>Integrated Wi-Fi and Bluetooth connectivity</li>
+            <li>Low power consumption</li>
+            <li>Dual-core processor for powerful performance</li>
+            <li>Ideal for custom IoT applications</li>
+          </ul>
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition-colors duration-300 shadow-md">Learn More</button>
+        </div>
+
+        <!-- Product Card 3: IoT Central Hub (Multi-protocol) -->
+        <div class="product-card bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="images/IoT Hub.png" alt="IoT Central Hub" class="w-48 h-auto mb-4 rounded-md object-cover" />
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">IoT Central Hub (Multi-protocol)</h3>
+          <p class="text-gray-600 mb-4">Ensures seamless communication and interoperability for all your smart devices.</p>
+          <p class="text-2xl font-bold text-teal-600 mb-4">RM450</p>
+          <ul class="text-left text-sm text-gray-700 list-disc list-inside mb-6">
+            <li>Supports multiple communication protocols (e.g., Zigbee, Z-Wave)</li>
+            <li>Centralized control for all devices</li>
+            <li>Robust and reliable connectivity</li>
+            <li>Future-proof design for expanding smart homes</li>
+          </ul>
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition-colors duration-300 shadow-md">Learn More</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section with contact info, social media, and copyright -->
+  <footer class="bg-blue-900 text-white py-8 text-center">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+        <!-- Contact Information -->
+        <div class="mb-4 md:mb-0">
+          <p class="text-lg font-semibold">Contact Us:</p>
+          <p>Email: <a href="mailto:asyahidula@gmail.com" class="hover:underline">asyahidula@gmail.com</a></p>
+          <p>Phone: <a href="tel:+60387654321" class="hover:underline">+60 11-6130 1310</a></p>
+          <p>Address: No 45, Jalan Impian 2/17, Taman Impian Jaya, 81400, Senai, Johor</p>
+          <!-- Google Maps Link -->
+          <p class="mt-2">
+            <a href="https://maps.app.goo.gl/jRRMGoc3UcFtt1rZ6" target="_blank" rel="noopener noreferrer" class="text-blue-300 hover:text-blue-100 transition-colors duration-300">
+              <i class="fas fa-map-marker-alt mr-2"></i>View on Map
+            </a>
+          </p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="flex space-x-6 text-2xl">
+          <a href="#" class="hover:text-blue-300 transition-colors duration-300" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="hover:text-blue-300 transition-colors duration-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-blue-300 transition-colors duration-300" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="hover:text-blue-300 transition-colors duration-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Copyright and Policy Links -->
+      <div class="border-t border-blue-700 pt-6 mt-6 text-sm">
+        <p>&copy; 2025 AsaVision Enterprise. All rights reserved.</p>
+        <div class="mt-2 space-x-4">
+          <a href="#" class="hover:underline">Privacy Policy</a>
+          <a href="#" class="hover:underline">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
