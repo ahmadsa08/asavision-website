@@ -1,151 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Certificates - AsaVision</title>
-  <meta name="description" content="View AsaVision Enterprise's official business certificates including SSM registration and details about Kementerian Kewangan application.">
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Certificates - AsaVision</title>
+    <meta name="description" content="View AsaVision Enterprise's official business certificates including SSM registration and details about Kementerian Kewangan application.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom font if needed, otherwise Tailwind's default sans-serif is used */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
 
-  <!-- Header -->
-  <header class="bg-blue-900 text-white p-4 flex flex-col sm:flex-row items-center justify-between shadow-md">
-    <div class="flex items-center mb-4 sm:mb-0">
-      <img src="images/logo.png" alt="AsaVision Enterprise Logo" class="h-10 mr-3 rounded-md" />
-      <span class="text-2xl font-bold">AsaVision Enterprise</span>
-    </div>
-    <nav class="flex flex-wrap justify-center sm:justify-end space-x-4">
-      <a href="index.html" class="hover:text-blue-200 px-3 py-2 rounded-md">Home</a>
-      <a href="about.html" class="hover:text-blue-200 px-3 py-2 rounded-md">About</a>
-      <a href="products.html" class="hover:text-blue-200 px-3 py-2 rounded-md">Products</a>
-      <a href="certificates.html" class="hover:text-blue-200 px-3 py-2 rounded-md">Certificates</a>
-      <a href="clients.html" class="hover:text-blue-200 px-3 py-2 rounded-md">Clients</a>
-      <a href="contact.html" class="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-md shadow-lg">Contact Us</a>
-    </nav>
-  </header>
-
-  <!-- Main Content -->
-  <main class="container mx-auto px-4 py-12">
-    <section class="intro bg-white p-8 rounded-lg shadow-lg">
-      <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Company Certificates</h2>
-      <div class="max-w-3xl mx-auto text-lg leading-relaxed">
-        <p class="mb-6">
-          At AsaVision Enterprise, we are committed to transparency and compliance.
-          Here are the key certifications and registrations that validate our operations and commitment to quality:
-        </p>
-
-        <ul class="list-disc list-inside space-y-3 mb-6">
-          <li class="flex items-start">
-            <i class="fas fa-certificate text-green-500 mr-2 mt-1"></i>
-            <span><strong class="font-semibold">SSM Registered:</strong> We are officially registered with the Companies Commission of Malaysia (Suruhanjaya Syarikat Malaysia), ensuring our legal standing and operational integrity.</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-hourglass-half text-yellow-500 mr-2 mt-1"></i>
-            <span><strong class="font-semibold">Application to Kementerian Kewangan in Progress:</strong> Our application for registration with the Ministry of Finance (Kementerian Kewangan) is currently underway. This registration will enable us to participate in government tenders and expand our reach.</span>
-          </li>
-        </ul>
-
-        <h3 class="text-2xl font-semibold text-blue-700 mb-4">For Kementerian Kewangan Registration, follow these steps:</h3>
-        <ol class="list-decimal list-inside space-y-3 mb-6">
-          <li class="flex items-start">
-            <i class="fas fa-clipboard-check text-blue-500 mr-2 mt-1"></i>
-            <span><strong class="font-semibold">Register business with SSM:</strong> Ensure your business is legally registered with the Companies Commission of Malaysia.</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-file-upload text-blue-500 mr-2 mt-1"></i>
-            <span><strong class="font-semibold">Apply at ePerolehan portal:</strong> Submit your application through the official ePerolehan portal, the central procurement system for the Malaysian government.</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-clock text-blue-500 mr-2 mt-1"></i>
-            <span><strong class="font-semibold">Upload vendor documentation and wait for approval:</strong> Provide all necessary supporting documents as required by the Ministry of Finance and await their official approval.</span>
-          </li>
-        </ol>
-
-        <!-- Certificate preview -->
-        <!-- Certificate preview: SSM -->
-<div class="flex justify-center mt-10">
-  <div class="bg-gray-50 p-4 rounded-lg shadow-md text-center w-full max-w-md">
-    <img src="images/SSM REGISTRATION.jpg" alt="AsaVision SSM Company Registration Certificate" class="w-full h-auto rounded-md mb-2">
-    <p class="text-sm text-gray-600 mb-4">Issued by Suruhanjaya Syarikat Malaysia – 2023</p>
-    <a href="images/SSM REGISTRATION.pdf" target="_blank" class="inline-block bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300">
-      View Full Certificate
-    </a>
-  </div>
-</div>
-
-<!-- Certificate preview: Vendor UMPSA -->
-<div class="flex justify-center mt-10">
-  <div class="bg-gray-50 p-4 rounded-lg shadow-md text-center w-full max-w-md">
-    <img src="images/Vendor UMPSA.jpg" alt="AsaVision Vendor UMPSA Registration" class="w-full h-auto rounded-md mb-2">
-    <p class="text-sm text-gray-600 mb-4">
-      Registration with Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA) – Completed
-    </p>
-    <p class="text-sm text-gray-700 mb-4">
-      Our Vendor Reference No. is <strong>VA25-36913</strong> under the company <strong>ASAVISION ENTERPRISE</strong>
-      (Company Registration No. <strong>202503118531 (RA0124306-V)</strong>).
-      This registration enables us to participate in procurement and service opportunities offered by UMPSA.
-    </p>
-  </div>
-</div>
-
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white p-4 flex flex-col sm:flex-row items-center justify-between shadow-md rounded-b-lg">
+        <div class="flex items-center mb-4 sm:mb-0">
+            <!-- Company Logo -->
+            <img src="images/logo.png" alt="AsaVision Enterprise Logo" class="h-10 mr-3 rounded-md" />
+            <!-- Company Name -->
+            <span class="text-2xl font-bold">AsaVision Enterprise</span>
         </div>
+        <!-- Navigation Menu -->
+        <nav class="flex flex-wrap justify-center sm:justify-end space-x-4">
+            <a href="index.html" class="hover:text-blue-200 px-3 py-2 rounded-md transition-colors duration-300">Home</a>
+            <a href="about.html" class="hover:text-blue-200 px-3 py-2 rounded-md transition-colors duration-300">About</a>
+            <a href="products.html" class="hover:text-blue-200 px-3 py-2 rounded-md transition-colors duration-300">Products</a>
+            <a href="certificates.html" class="hover:text-blue-200 px-3 py-2 rounded-md transition-colors duration-300">Certificates</a>
+            <a href="clients.html" class="hover:text-blue-200 px-3 py-2 rounded-md transition-colors duration-300">Clients</a>
+            <a href="contact.html" class="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-md shadow-lg transition-colors duration-300">Contact Us</a>
+        </nav>
+    </header>
 
-        <!-- Optional: Upcoming Certificates -->
-        <div class="mt-12 text-center">
-          <h3 class="text-xl font-semibold text-blue-700 mb-2">Upcoming Certificates</h3>
-           <ul class="list-none text-gray-700 space-y-2">
-          <li>Ministry of Finance (MOF) Registration – In Progress</li>
-         <li>ISO 9001: Quality Management – Planned</li>
-        </ul>
-       </div>
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-12">
+        <section class="intro bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Company Certificates</h2>
+            <div class="max-w-3xl mx-auto text-lg leading-relaxed">
+                <p class="mb-6 text-justify">
+                    At AsaVision Enterprise, we are committed to transparency and compliance.
+                    Here are the key certifications and registrations that validate our operations and commitment to quality:
+                </p>
 
+                <!-- List of Certifications -->
+                <ul class="list-disc list-inside space-y-3 mb-6">
+                    <li class="flex items-start text-justify">
+                        <i class="fas fa-certificate text-green-500 mr-2 mt-1"></i>
+                        <span><strong class="font-semibold">SSM Registered:</strong> We are officially registered with the Companies Commission of Malaysia (Suruhanjaya Syarikat Malaysia), ensuring our legal standing and operational integrity.</span>
+                    </li>
+                    <li class="flex items-start text-justify">
+                        <i class="fas fa-hourglass-half text-yellow-500 mr-2 mt-1"></i>
+                        <span><strong class="font-semibold">Application to Kementerian Kewangan in Progress:</strong> Our application for registration with the Ministry of Finance (Kementerian Kewangan) is currently underway. This registration will enable us to participate in government tenders and expand our reach.</span>
+                    </li>
+                </ul>
 
-        <p class="text-center italic text-gray-600 mt-10">
-          "Committed to compliance and growth."
-        </p>
-      </div>
-    </section>
-  </main>
+                <h3 class="text-2xl font-semibold text-blue-700 mb-4">For Kementerian Kewangan Registration, follow these steps:</h3>
+                <!-- Steps for Kementerian Kewangan Registration -->
+                <ol class="list-decimal list-inside space-y-3 mb-6">
+                    <li class="flex items-start text-justify">
+                        <i class="fas fa-clipboard-check text-blue-500 mr-2 mt-1"></i>
+                        <span><strong class="font-semibold">Register business with SSM:</strong> Ensure your business is legally registered with the Companies Commission of Malaysia.</span>
+                    </li>
+                    <li class="flex items-start text-justify">
+                        <i class="fas fa-file-upload text-blue-500 mr-2 mt-1"></i>
+                        <span><strong class="font-semibold">Apply at ePerolehan portal:</strong> Submit your application through the official ePerolehan portal, the central procurement system for the Malaysian government.</span>
+                    </li>
+                    <li class="flex items-start text-justify">
+                        <i class="fas fa-clock text-blue-500 mr-2 mt-1"></i>
+                        <span><strong class="font-semibold">Upload vendor documentation and wait for approval:</strong> Provide all necessary supporting documents as required by the Ministry of Finance and await their official approval.</span>
+                    </li>
+                </ol>
 
-  <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-8 text-center">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center mb-6">
-        <!-- Contact Info -->
-        <div class="mb-4 md:mb-0">
-          <p class="text-lg font-semibold">Contact Us:</p>
-          <p>Email: <a href="mailto:asyahidula@gmail.com" class="hover:underline">asyahidula@gmail.com</a></p>
-          <p>Phone: <a href="tel:+601161301310" class="hover:underline">+60 11-6130 1310</a></p>
-          <p>Address: No 45, Jalan Impian 2/17, Taman Impian Jaya, 81400, Senai, Johor</p>
-          <p class="mt-2">
-            <a href="https://maps.app.goo.gl/jRRMGoc3UcFtt1rZ6" target="_blank" rel="noopener noreferrer" class="text-blue-300 hover:text-blue-100 transition-colors duration-300">
-              <i class="fas fa-map-marker-alt mr-2"></i>View on Map
-            </a>
-          </p>
+                <!-- Certificate Preview: SSM -->
+                <div class="flex justify-center mt-10">
+                    <div class="bg-gray-50 p-4 rounded-lg shadow-md text-center w-full max-w-md">
+                        <img src="images/SSM REGISTRATION.jpg" alt="AsaVision SSM Company Registration Certificate" class="w-full h-auto rounded-md mb-2">
+                        <p class="text-sm text-gray-600 mb-4">Issued by Suruhanjaya Syarikat Malaysia – 2023</p>
+                        <a href="images/SSM REGISTRATION.pdf" target="_blank" class="inline-block bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300">
+                            View Full Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Certificate Preview: Vendor UMPSA -->
+                <div class="flex justify-center mt-10">
+                    <div class="bg-gray-50 p-4 rounded-lg shadow-md text-center w-full max-w-md">
+                        <img src="images/Vendor UMPSA.jpg" alt="AsaVision Vendor UMPSA Registration" class="w-full h-auto rounded-md mb-2">
+                        <p class="text-sm text-gray-600 mb-4">
+                            Registration with Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA) – Completed
+                        </p>
+                        <p class="text-sm text-gray-700 mb-4">
+                            Our Vendor Reference No. is <strong>VA25-36913</strong> under the company <strong>ASAVISION ENTERPRISE</strong>
+                            (Company Registration No. <strong>202503118531 (RA0124306-V)</strong>).
+                            This registration enables us to participate in procurement and service opportunities offered by UMPSA.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Optional: Upcoming Certificates Section -->
+                <div class="mt-12">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">Upcoming Certificates</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Ministry of Finance (MOF) Registration – In Progress</li>
+                        <li>ISO 9001: Quality Management – Planned</li>
+                    </ul>
+                </div>
+
+                <p class="text-center italic text-gray-600 mt-10">
+                    "Committed to compliance and growth."
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-900 text-white py-8 text-center rounded-t-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <!-- Contact Information -->
+                <div class="mb-4 md:mb-0 text-left md:text-center">
+                    <p class="text-lg font-semibold">Contact Us:</p>
+                    <p>Email: <a href="mailto:asyahidula@gmail.com" class="hover:underline">asyahidula@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+601161301310" class="hover:underline">+60 11-6130 1310</a></p>
+                    <p>Address: No 45, Jalan Impian 2/17, Taman Impian Jaya, 81400, Senai, Johor</p>
+                    <p class="mt-2">
+                        <a href="https://maps.app.goo.gl/jRRMGoc3UcFtt1rZ6" target="_blank" rel="noopener noreferrer" class="text-blue-300 hover:text-blue-100 transition-colors duration-300 flex items-center justify-start md:justify-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>View on Map
+                        </a>
+                    </p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="flex space-x-6 text-2xl">
+                    <a href="https://facebook.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
+                </div>
+            </div>
+
+            <!-- Copyright and Legal Links -->
+            <div class="border-t border-blue-700 pt-6 mt-6 text-sm">
+                <p>&copy; 2025 AsaVision Enterprise. All rights reserved.</p>
+                <div class="mt-2 space-x-4">
+                    <a href="privacy.html" class="hover:underline">Privacy Policy</a>
+                    <a href="terms.html" class="hover:underline">Terms of Service</a>
+                </div>
+            </div>
         </div>
-
-        <!-- Social Media -->
-        <div class="flex space-x-6 text-2xl">
-          <a href="https://facebook.com" target="_blank" class="hover:text-blue-300" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com" target="_blank" class="hover:text-blue-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="https://linkedin.com" target="_blank" class="hover:text-blue-300" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://instagram.com" target="_blank" class="hover:text-blue-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-
-      <div class="border-t border-blue-700 pt-6 mt-6 text-sm">
-        <p>&copy; 2025 AsaVision Enterprise. All rights reserved.</p>
-        <div class="mt-2 space-x-4">
-          <a href="privacy.html" class="hover:underline">Privacy Policy</a>
-          <a href="terms.html" class="hover:underline">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 </body>
 </html>
